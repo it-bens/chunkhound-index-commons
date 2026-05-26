@@ -1,0 +1,10 @@
+[files]
+extend-exclude = [
+  "dist/",
+  "uv.lock",
+  "CHANGELOG.md",
+]
+
+[default.extend-words]
+# "unparseable" is a valid English variant; we use it in test names.
+unparseable = "unparseable"

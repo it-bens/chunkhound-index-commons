@@ -1,0 +1,5 @@
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.duckdb binary
+tests/fixtures/*.duckdb filter=lfs diff=lfs merge=lfs -text
